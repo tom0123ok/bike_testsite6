@@ -1,0 +1,302 @@
+@charset "utf-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+} 
+body {
+    width: 1200px;
+    margin: 0 auto;
+    /*background: url(images/head_bg.jpg) repeat-y center;*/
+    font-family:"Hiragino Kaku Gothic Pro W3", "ヒラギノ角ゴ Pro W3", Osaka, "ＭＳ ゴシック";
+}
+li {
+    list-style: none;
+}
+video {
+  width: 100%;
+}
+header {
+    color: #fff;
+}
+header ul { 
+    display: flex;
+    justify-content: center;
+    background-color: #ff105e;
+    text-align: center;
+    margin: 10px 0;
+}
+header ul li {
+    padding: 14px 18px; 
+    border-right: 1px solid #fff;
+    width: calc(100% / 7 );
+    font-size: 12px;
+}
+main {
+    width: 100%;
+    margin: 0 auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+main aside {
+    /*background-color:red;*/
+    width: 25%;
+}
+main aside h2 {
+    margin-top: 20px;
+    border-bottom: 3px solid #000;
+    padding-bottom: 4px;
+}
+main aside .searching {
+    margin: 10px 0;
+}
+main aside .event a {
+    text-decoration: none;
+}
+main aside .event p {
+    background-color: rgb(238, 238, 238);
+    border: 1px solid #000;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    color: rgb(44, 162, 209);
+}
+.search {
+    vertical-align: middle;
+    padding: 5px;
+    width: 220px;
+}
+.submit {
+    vertical-align: middle;
+    padding: 2px 5px;
+    background-color: rgb(255, 147, 45);
+    border-color: rgb(255, 147, 45);
+    border-radius: 3px;
+    width: 70px;
+}
+.mainside {
+    /*background-color: sandybrown;*/
+    width: 73%;
+}
+.mainside h1{
+    text-align: center;
+    padding: 43px;
+    font-size: 28px;
+    color: rgb(68, 68, 248);
+}
+.mainside h1 span {
+    color: rgb(255, 58, 58);
+}
+.mainside .movie {
+    margin: 0 auto;
+    /*height: 400px;*/
+    width: 98%;
+}
+.mainside iframe {
+    margin: 0 auto;
+    /*height: 400px;*/
+    width: 100%;
+}
+.mainside .sec01 {
+    background-color: #fff;
+    text-align: center;
+    margin: 30px 0;
+    
+}
+.mainside .sec01 h3 {
+    margin: 12px 0;
+    padding: 10px;
+    margin: 30px 0 15px 0;
+    font-size: 22px;
+    background-color: rgb(219, 218, 218);
+}
+.mainside .sec01 table {
+    margin: 0 auto;
+    width: 100%;
+    border-top: 1px solid #9E9D9B;
+    border-left: 1px solid #9E9D9B;
+    border-right: 1px solid #9E9D9B;
+}
+.mainside .sec01 table th{
+    padding: 10px ;
+}
+.mainside .sec01 table tr {
+    border-bottom: 1px solid #9E9D9B;
+}
+.mainside .sec01 table td {
+    padding: 10px ;
+}
+.mainside .sec01 table .td_1 {
+    border-right: 1px solid #9E9D9B;
+}
+.mainside .sec01 table .td_2 {
+    text-align: left;
+}
+.mainside .sec01 table .odd {
+    background-color: #d0cccc;
+    padding: 10px;
+}
+.mainside .sec02 {
+    text-align: center;
+}
+.mainside .sec02 h3 {
+    margin: 12px 0;
+    padding: 10px;
+    font-size: 22px;
+    background-color: rgb(219, 218, 218);
+}
+.mainside .sec02 table {
+    margin: 20px auto;
+    width: 93%;
+}
+.mainside .sec02 tr {
+    margin: 0 auto;
+}
+.mainside .sec02 th {
+    color: rgb(68, 68, 248);
+    padding: 10px ;
+    text-align: left;
+}
+.mainside .sec02 td {
+    padding: 10px ;
+    text-align: left;
+}
+.mainside .sec03 {
+    text-align: center
+}
+.mainside .sec03 h3 {
+    padding: 10px;
+    margin: 12px 0;
+    font-size: 22px;
+    background-color: rgb(219, 218, 218);
+}
+.mainside .sec03 .subbord {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.mainside .sec03 .subbord .subimg {
+    width: calc(97% / 3);
+}
+.mainside .sec03 img {
+    width: 100%;
+}
+.mainside .sec04 {
+    text-align: center
+}
+.mainside .sec04 h3 {
+    padding: 10px;
+    font-size: 22px;
+    background-color: rgb(219, 218, 218);
+    margin: 12px 0;
+}
+.mainside .sec04 .container .images {
+    width: 97%;
+    margin: 0 auto;
+}
+.mainside .sec04 .container .images img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.mainside .sec04  .underimg {
+    width: 97%;
+    margin: 20px 0;
+}
